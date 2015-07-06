@@ -1,8 +1,9 @@
 <ion-view view-title="Customers">
   <ion-content>
+    list of customers
     <ion-list>
-      <ion-item ng-repeat="customer in customers" href="#/app/customers/{{customer.id}}">
-        {{customer.title}}
+      <ion-item collection-repeat="customer in customers" href="#/app/customers/{{customer.id}}">
+        {{customer.name}}
       </ion-item>
     </ion-list>
   </ion-content>
