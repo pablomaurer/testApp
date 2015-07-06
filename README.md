@@ -2,7 +2,7 @@
 This is a Sample App to reproduce a crash on IOS with [PouchDB](http://pouchdb.com/) and [SQLite Adapter](https://github.com/litehelpers/Cordova-sqlite-storage) on IOS. Everything is prepared even a sample database.
 
 ## Problem
-When indexing a large Database it uses more and more memory until the App crashes...<br>
+When syncing an indexing a large Database it uses more and more memory until the App crashes...<br>
 [Stackoverflow](http://stackoverflow.com/questions/31053946/pouchdb-sqlite-indexing-crashes-needs-to-much-memory-on-ios)<br>
 [Cordova SQLite](https://github.com/litehelpers/Cordova-sqlite-storage)
 
