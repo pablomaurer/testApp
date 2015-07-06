@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-    .controller('AppCtrl', function ($scope, $ionicModal, $timeout) {
+    .controller('AppCtrl', function ($scope) {
 
         // With the new view caching in Ionic, Controllers are only called once: isn't that bad for memory if
         // i really make a very very huge app? I like it more when it loads here and there slow than that it crashes
@@ -20,7 +20,11 @@ angular.module('starter.controllers', [])
 
     })
 
-    .controller('customersController', function ($scope, pouchService) {
+    .controller('customersController', function ($scope, $ionicLoading, pouchService) {
+
+        $ionicLoading.show({
+            template: 'Loading...<br><ion-spinner icon="ios"></ion-spinner>'
+        });
 
         // will load customers afterEnter
         $scope.$on('$ionicView.afterEnter', function(){
@@ -33,6 +37,7 @@ angular.module('starter.controllers', [])
         var getList = function () {
             pouchService.query('customer/all').then(function (result) {
                 $scope.customers = result;
+                $ionicLoading.hide();
             });
         };
     })
