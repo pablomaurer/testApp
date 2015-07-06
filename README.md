@@ -42,6 +42,4 @@ Maybe you will be the one, who can provide a solution? :P
 - Sync Progress 99% = 575 mb RAM
 
 ## My Stats INDEXING on IPad Air 2
-Starting with 573 mb RAM
-while indexing moving around 685 - 700 mb RAM
-in the last seconds before it crashes it wend rapidly up to 850mb
+while indexing moving around 685 - 700 mb RAM for a long time and in the last seconds before it crashes it wend rapidly up to 850mb
