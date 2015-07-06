@@ -8,6 +8,12 @@ angular.module('starter.controllers', [])
     })
 
     .controller('settingsController', function ($scope, pouchService) {
+
+        // init
+        $scope.initPouchDB = function () {
+            pouchService.init();
+        };
+
         // start
         $scope.syncNow = function () {
             pouchService.syncNow();

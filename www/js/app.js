@@ -18,8 +18,5 @@ mainModule.run(function ($ionicPlatform, pouchService) {
             // org.apache.cordova.statusbar required
             StatusBar.styleDefault();
         }
-
-        pouchService.init();
-
     });
 });
