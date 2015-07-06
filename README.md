@@ -31,15 +31,15 @@ Maybe you will be the one, who can provide a solution? :P
 3. Once it's done click in the Menu on Customers, then the indexing process of PouchDB should beginn and here it will crash.
 
 ## My Stats SYNCING on IPad Air 2
-Sync Progress 21% = 180 mb RAM
-Sync Progress 30% = 214 mb RAM
-Sync Progress 40% = 263 mb RAM
-Sync Progress 50% = 325 mb RAM
-Sync Progress 60% = 364 mb RAM
-Sync Progress 70% = 404 mb RAM
-Sync Progress 80% = 448 mb RAM
-Sync Progress 90% = 520 mb RAM
-Sync Progress 99% = 575 mb RAM
+- Sync Progress 21% = 180 mb RAM
+- Sync Progress 30% = 214 mb RAM
+- Sync Progress 40% = 263 mb RAM
+- Sync Progress 50% = 325 mb RAM
+- Sync Progress 60% = 364 mb RAM
+- Sync Progress 70% = 404 mb RAM
+- Sync Progress 80% = 448 mb RAM
+- Sync Progress 90% = 520 mb RAM
+- Sync Progress 99% = 575 mb RAM
 
 ## My Stats INDEXING on IPad Air 2
 Starting with 573 mb RAM
