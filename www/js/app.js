@@ -7,7 +7,7 @@
 
 var mainModule = angular.module('starter', ['ionic', 'starter.controllers']);
 
-mainModule.run(function ($ionicPlatform) {
+mainModule.run(function ($ionicPlatform, pouchService) {
     $ionicPlatform.ready(function () {
 
         // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard for form inputs)
@@ -18,6 +18,8 @@ mainModule.run(function ($ionicPlatform) {
             // org.apache.cordova.statusbar required
             StatusBar.styleDefault();
         }
+
+        pouchService.init();
 
     });
 });

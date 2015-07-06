@@ -11,7 +11,8 @@ mainModule.config(function ($stateProvider, $urlRouterProvider) {
             url: "/settings",
             views: {
                 'menuContent': {
-                    templateUrl: "templates/settings.html"
+                    templateUrl: "templates/settings.html",
+                    controller: 'settingsController'
                 }
             }
         })

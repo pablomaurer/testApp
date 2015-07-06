@@ -78,6 +78,22 @@ mainModule.factory('pouchService', function ($rootScope, $q) {
     };
 
     // -----------------------------------
+    // Query - replace with query
+    // -----------------------------------
+    pouchService.query = function (view, options) {
+        return $q.when(
+            localDB.query(view, options)).then(function (result) {
+                var betterResult = result.rows.map(function(row) {
+                    return row.value;
+                });
+                console.info('pouchService retrieved: ', betterResult);
+                return betterResult;
+            }).catch(function (err) {
+                console.log(err);
+            });
+    };
+
+    // -----------------------------------
     // Get
     // -----------------------------------
     pouchService.get = function (id) {
