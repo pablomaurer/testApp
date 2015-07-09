@@ -1,5 +1,5 @@
 # Sample App to reproduce PouchDB/SQLite crash
-This is a Sample App to reproduce a crash on IOS with [PouchDB](http://pouchdb.com/) and [SQLite Adapter](https://github.com/litehelpers/Cordova-sqlite-storage) on IOS. Everything is prepared even a sample database.
+This is a Sample App to reproduce a crash on IOS with [PouchDB](http://pouchdb.com/) and [SQLite Adapter](https://github.com/litehelpers/Cordova-sqlite-storage) on IOS. Everything is prepared even a sample database using a [json generator](http://jsongen.pykaso.net/).
 
 ## Problem
 When syncing an indexing a large Database it uses more and more memory until the App crashes...<br>
