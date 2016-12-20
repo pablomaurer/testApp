@@ -15,24 +15,6 @@ mainModule.config(function ($stateProvider, $urlRouterProvider) {
                     controller: 'settingsController'
                 }
             }
-        })
-        .state('app.customers', {
-            url: "/customers",
-            views: {
-                'menuContent': {
-                    templateUrl: "templates/customers.html",
-                    controller: 'customersController'
-                }
-            }
-        })
-        .state('app.customers.single', {
-            url: "/customers/:playlistId",
-            views: {
-                'menuContent': {
-                    templateUrl: "templates/customer.html",
-                    controller: 'customerController'
-                }
-            }
         });
 
     $urlRouterProvider.otherwise('/app/settings');
